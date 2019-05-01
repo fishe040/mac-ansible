@@ -1,0 +1,25 @@
+StrictHostKeyChecking no
+
+
+Host us*-air*
+  User adminbf
+  HostName %h.ec2.local
+
+host jp*-air*
+  User adminbf
+  HostName %h.jp.rmhi.io
+
+host jp*-net*
+  User adminbf
+  HostName %h.jp.rmhi.io
+  KexAlgorithms +diffie-hellman-group1-sha1
+
+host us*-net*
+  User adminbf2
+  HostName %h.corp.resmed.org
+  KexAlgorithms +diffie-hellman-group1-sha1
+
+host sftp.ec2.local
+  User adminbf
+  HostkeyAlgorithms +ssh-dss
+

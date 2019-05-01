@@ -1,0 +1,31 @@
+- name: dotfiles dirs
+  file:
+    path: '~/.{{ item }}'
+    state: directory
+  loop:
+  - config
+  - config/neofetch
+  - ssh
+  - vim
+  - zsh
+
+
+- name: dotfiles files
+  file:
+    src: '{{ ansible_env.PWD }}/roles/brandon_mac/files/dotfiles/{{ item }}'
+    path: '~/.{{ item }}'
+    state: link
+  loop:
+  - config/neofetch/config
+  - gemrc
+  - gitconfig
+  - gitignore_global
+  - gitmessage
+  - hushlogin
+  - oh-my-zsh****
+  - ssh/config
+  - tmux.conf
+  - vim/plugins.vim
+  - vimrc
+  - zshrc
+  - Brewfile

@@ -1,0 +1,118 @@
+homebrew_taps: []
+
+homebrew_package_removals: []
+
+homebrew_packages:
+- autoconf
+- autojump
+- automake
+- coreutils
+- fdupes
+- git
+- gpg
+- hub
+- jq
+- libyaml #YAML Parser
+- neofetch
+- openssl
+- pyenv #Python Version Management
+- python
+- qpdf #Tools for and transforming and inspecting PDF files
+- rsync
+- ruby
+- ruby-build
+- ruby-install
+- shellcheck
+- telnet
+- tmux
+- tree
+- vim
+- watch
+- wget
+- xz
+- zlib
+- zsh-completions
+#- bazaar
+#- cloc #Statistics utility to count lines of code
+#- cowsay
+#- exiftool
+#- ffmpeg
+#- freetype
+#- fswatch
+#- gdbm
+#- graphicsmagick #image convertor
+#- imagemagick
+#- jhead #Extract Digicam setting info from EXIF JPEG header
+#- jpeg
+#- jpegoptim
+#- lesspipe
+#- libevent
+#- libmemcached
+#- libpng
+#- libtool
+#- memcached
+#- ncdu  #NCurses Disk Usage
+#- node #node.js, node@11, nodejs, npm
+#- ossp-uuid #Generating UUIDs
+#- pandoc #Swiss-army knife of markup format conversion https://pandog.org/
+#- percona-toolkit Percona Toolkit for MySQL
+#- pkg-config #Manage compile and link flags for libraries
+#- pngcrush #Optimizer for PNG Files
+#- postgresql
+#- pwgen #Password Generator
+#- pypy #Highly performant implementation of Python 2 in Python
+#- readline #Commandline editing tool
+#- rtmpdump
+#- sqlite
+
+
+homebrew_cask_packages:
+- alfred #Application launcher using keyboard shortcuts
+- atom
+- bitbar # lets you put the output from any script/program in your Mac OS X Menu Bar.
+- disk-inventory-x
+- firefox
+- font-ubuntumono-nerd-font
+- google-chrome
+- inkscape #Professional vector graphics editor (free)
+- iterm2
+- java
+- mplayerx #All-in-One video player
+- powershell
+- vagrant
+- wireshark
+- xquartz
+#- anki #Learning program used to make things easier to remember
+#- docker
+#- evernote
+#- karabiner-elements #Keyboard customizer
+#- paintbrush
+#- playonmac #enables some Windows Apps to run on Mac
+#- rescuetime #Paid time tracking app
+#- vlc
+
+pyenv_python_versions:
+# In precedence order
+- 3.7.3
+- 3.6.8
+- 3.5.7
+- 2.7.16
+
+pip_packages:
+- awscli
+- pygments #python syntax highlighting
+- pyyaml
+#- boto #Python library for AWS
+#- boto3 #Python library for AWS
+#- csvkit
+#- ec2-ssh # SSH for ec2 instance
+#- httpie
+#- ipdb  #include if developing pyhthon
+#- ipython #include if developing Python
+#- pip-tools #include if developing Python
+#- pipenv #include if developing Python
+#- pythonpy
+#- tox
+#- twine
+#- virtualenvwrapper
+#- youtube-dl
